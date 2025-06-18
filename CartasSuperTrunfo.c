@@ -38,9 +38,9 @@ int main() {
 
     // Calculando o valor da densidade e do super
     density_1 = population_1 / area_1;
-    super_1 = population_1 + area_1 + pib_1 + points_1 + (1 / density_1);
+    super_1 = population_1 + area_1 + pib_1 + points_1 + (1.0f / density_1);
     density_2 = population_2 / area_2;
-    super_2 = population_2 + area_2 + pib_2 + pontos2 + (1 / density_2);
+    super_2 = population_2 + area_2 + pib_2 + pontos2 + (1.0f / density_2);
 
     // Mostrando as cartas
     printf("\n=== Dados das Cartas ===\n");
